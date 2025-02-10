@@ -57,7 +57,7 @@ body{
 
 
 .presentacion__contenido__titulo{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: var(--fuente-krona);
 }
 
@@ -65,9 +65,12 @@ body{
     color: var(--color-terciaria); ;
 }
 
-.presentacion__contenido__texto{
-    font-size: 1.5rem;
+.presentacion__contenido__texto {
+    font-size: 1.25rem; /* Tamaño de fuente adecuado */
     font-family: var(--fuente-montserrat);
+    text-align: justify; /* Justificar texto para una apariencia ordenada */
+    line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+    margin-bottom: 1rem; /* Espacio inferior para separación entre párrafos */
 }
 
 .presentacion__enlaces{
@@ -103,9 +106,11 @@ body{
     background-color: var(--color-hover);
 }
 
-.presentacion__imagen{
+.presentacion__imagen {
     width: 50%;
+    margin-left: 30px; /* Añade un margen a la izquierda para desplazar la imagen hacia la derecha */
 }
+
 
 .footer{
     color:var(--color-primaria);
